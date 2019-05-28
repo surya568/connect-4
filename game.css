@@ -1,0 +1,42 @@
+body {
+		background-image:url(img.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+	  text-align: center;
+	}
+	
+	#connect4 {
+		background-image:url(bg.jpg);
+		background-position:center;
+	  display: inline-block;
+	}
+	
+	.col {
+	  width: 70px;
+	  height: 70px;
+	  display: inline-block;
+	  background-color: white;
+	  border-radius: 50%;
+	  margin: 5px;
+	}
+	
+	.col.empty {
+	  cursor: pointer;
+	}
+	
+	.next-green {
+	  background-color:black;
+	}
+	.next-yellow{
+		background-color:black;
+	}
+	.col.green{
+		background-color:green;
+
+	}
+	.col.yellow{
+		background-color:yellow;
+		
+	}
+	
+	
